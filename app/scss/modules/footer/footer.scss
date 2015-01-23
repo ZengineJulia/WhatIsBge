@@ -1,0 +1,51 @@
+.footer {
+  color: #fff;
+  text-align: center;
+
+  a,h5,h4,h3{
+    color: #fff;
+
+  }
+  a{
+    font-weight: bold;
+  }
+}
+
+.support-footer {
+  background-color: #3ab3b4;
+  padding: 30px 70px 0px 70px;
+  h1,h2,h3,h4,h5{
+    line-height: 0.5;
+  }
+}
+
+.info-footer{
+  background-color: #08999a;
+  padding: 30px 70px 20px 70px;
+  font-size: 0.8rem;
+  ul{
+    list-style: none;
+  }
+  .border{
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    a{
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+    h4{
+      font-weight: 300;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.projekt-info {
+  padding-top: 30px;
+}
+.copyright{
+  background-color: #333;
+  padding: 10px;
+  font-size: 0.9rem;
+}

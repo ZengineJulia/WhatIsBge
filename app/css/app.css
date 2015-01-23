@@ -471,7 +471,7 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -551,7 +551,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 100%;
 }
 .row:before, .row:after {
   content: " ";
@@ -1829,7 +1829,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
 }
 .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -2396,7 +2396,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3936,7 +3936,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -4477,7 +4477,7 @@ kbd {
 
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4961,7 +4961,7 @@ ul.pagination li {
   color: #EEEEEE;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
 }
 .pricing-table .price {
   background-color: #F6F6F6;
@@ -4970,7 +4970,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
 }
 .pricing-table .description {
   background-color: #FFFFFF;
@@ -5178,7 +5178,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal, dialog {
     width: 80%;
-    max-width: 62.5rem;
+    max-width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5201,7 +5201,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.tiny, dialog.tiny {
     width: 30%;
-    max-width: 62.5rem;
+    max-width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5210,7 +5210,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.small, dialog.small {
     width: 40%;
-    max-width: 62.5rem;
+    max-width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5219,7 +5219,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.medium, dialog.medium {
     width: 60%;
-    max-width: 62.5rem;
+    max-width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5228,7 +5228,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.large, dialog.large {
     width: 70%;
-    max-width: 62.5rem;
+    max-width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5237,7 +5237,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.xlarge, dialog.xlarge {
     width: 95%;
-    max-width: 62.5rem;
+    max-width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5255,7 +5255,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.full, dialog.full {
     width: 100vw;
-    max-width: 62.5rem;
+    max-width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5303,7 +5303,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
 }
 .side-nav li {
   margin: 0 0 0.4375rem 0;
@@ -5323,7 +5323,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
 }
 .side-nav li.divider {
   border-top: 1px solid;
@@ -5463,7 +5463,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5697,7 +5697,7 @@ table tr td {
   background-color: #EFEFEF;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
 }
 .tabs dd > a:hover, .tabs .tab-title > a:hover {
@@ -5895,7 +5895,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333;
+  background: #2c9a9b;
 }
 .contain-to-grid .top-bar {
   margin-bottom: 0;
@@ -5929,7 +5929,7 @@ meta.foundation-mq-topbar {
   height: 4rem;
   line-height: 4rem;
   position: relative;
-  background: #333333;
+  background: #2c9a9b;
   margin-bottom: 0;
 }
 .top-bar ul {
@@ -6028,7 +6028,7 @@ meta.foundation-mq-topbar {
   background: transparent;
 }
 .top-bar.expanded .title-area {
-  background: #333333;
+  background: #2c9a9b;
 }
 .top-bar.expanded .toggle-topbar a {
   color: #888888;
@@ -6053,7 +6053,7 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #1a1a1a;
+  border-top: solid 1px #164d4d;
   clear: both;
   height: 1px;
   width: 100%;
@@ -6067,7 +6067,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   padding: 12px 0 12px 0;
   padding-left: 1.33333rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -6189,8 +6189,8 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background-color: #555555;
-  background: #333333;
+  background-color: #66cc99;
+  background: #66cc99;
   color: #FFFFFF;
 }
 .top-bar-section ul li.active > a {
@@ -6294,7 +6294,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
+    background: #2c9a9b;
     overflow: visible;
   }
   .top-bar:before, .top-bar:after {
@@ -6322,11 +6322,11 @@ meta.foundation-mq-topbar {
     top: 1.125rem;
   }
   .top-bar.expanded {
-    background: #333333;
+    background: #2c9a9b;
   }
 
   .contain-to-grid .top-bar {
-    max-width: 62.5rem;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 0;
   }
@@ -6347,18 +6347,18 @@ meta.foundation-mq-topbar {
     display: none;
   }
   .top-bar-section li.hover > a:not(.button) {
-    background-color: #555555;
-    background: #333333;
+    background-color: #66cc99;
+    background: #66cc99;
     color: #FFFFFF;
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 1.33333rem;
     line-height: 4rem;
-    background: #333333;
+    background: #2c9a9b;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background-color: #555555;
-    background: #333333;
+    background-color: #66cc99;
+    background: #66cc99;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 1.33333rem;
@@ -6440,7 +6440,7 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     color: #FFFFFF;
-    background-color: #555555;
+    background-color: #66cc99;
     background: #333333;
   }
   .top-bar-section .dropdown li label {
@@ -6454,13 +6454,13 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #4e4e4e;
+    border-right: solid 1px #35b9ba;
     clear: none;
     height: 4rem;
     width: 0;
   }
   .top-bar-section .has-form {
-    background: #333333;
+    background: #2c9a9b;
     padding: 0 1.33333rem;
     height: 4rem;
   }
@@ -6480,8 +6480,8 @@ meta.foundation-mq-topbar {
   }
 
   .no-js .top-bar-section ul li:hover > a {
-    background-color: #555555;
-    background: #333333;
+    background-color: #66cc99;
+    background: #66cc99;
     color: #FFFFFF;
   }
   .no-js .top-bar-section ul li:active > a {
@@ -6751,7 +6751,7 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -8005,8 +8005,65 @@ th.hide-for-touch {
   }
 }
 /* all app scss styles here */
+.top-bar img {
+  height: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+}
+.footer a, .footer h5, .footer h4, .footer h3 {
+  color: #fff;
+}
+.footer a {
+  font-weight: bold;
+}
+
+.support-footer {
+  background-color: #3ab3b4;
+  padding: 30px 70px 0px 70px;
+}
+.support-footer h1, .support-footer h2, .support-footer h3, .support-footer h4, .support-footer h5 {
+  line-height: 0.5;
+}
+
+.info-footer {
+  background-color: #08999a;
+  padding: 30px 70px 20px 70px;
+  font-size: 0.8rem;
+}
+.info-footer ul {
+  list-style: none;
+}
+.info-footer .border {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.info-footer .border a {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.info-footer .border h4 {
+  font-weight: 300;
+}
+.info-footer .border p {
+  font-size: 0.8rem;
+}
+
+.projekt-info {
+  padding-top: 30px;
+}
+
+.copyright {
+  background-color: #333;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
 body {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=app.css.map */
