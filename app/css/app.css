@@ -5921,13 +5921,13 @@ meta.foundation-mq-topbar {
 }
 .fixed.expanded:not(.top-bar) .top-bar-section {
   z-index: 98;
-  margin-top: 2.8125rem;
+  margin-top: 4rem;
 }
 
 .top-bar {
   overflow: hidden;
-  height: 2.8125rem;
-  line-height: 2.8125rem;
+  height: 4rem;
+  line-height: 4rem;
   position: relative;
   background: #333333;
   margin-bottom: 0;
@@ -5966,12 +5966,12 @@ meta.foundation-mq-topbar {
   margin: 0;
 }
 .top-bar .name {
-  height: 2.8125rem;
+  height: 4rem;
   margin: 0;
   font-size: 16px;
 }
 .top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
-  line-height: 2.8125rem;
+  line-height: 4rem;
   font-size: 1.0625rem;
   margin: 0;
 }
@@ -5980,7 +5980,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   width: 75%;
   display: block;
-  padding: 0 0.9375rem;
+  padding: 0 1.33333rem;
 }
 .top-bar .toggle-topbar {
   position: absolute;
@@ -5994,9 +5994,9 @@ meta.foundation-mq-topbar {
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 0 0.9375rem;
-  height: 2.8125rem;
-  line-height: 2.8125rem;
+  padding: 0 1.33333rem;
+  height: 4rem;
+  line-height: 4rem;
 }
 .top-bar .toggle-topbar.menu-icon {
   top: 50%;
@@ -6005,7 +6005,7 @@ meta.foundation-mq-topbar {
 .top-bar .toggle-topbar.menu-icon a {
   height: 34px;
   line-height: 33px;
-  padding: 0 2.5rem 0 0.9375rem;
+  padding: 0 2.89583rem 0 1.33333rem;
   color: #FFFFFF;
   position: relative;
 }
@@ -6016,7 +6016,7 @@ meta.foundation-mq-topbar {
   height: 0;
   top: 50%;
   margin-top: -8px;
-  right: 0.9375rem;
+  right: 1.33333rem;
   box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
   width: 16px;
 }
@@ -6066,7 +6066,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   color: #FFFFFF;
   padding: 12px 0 12px 0;
-  padding-left: 0.9375rem;
+  padding-left: 1.33333rem;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
@@ -6074,8 +6074,8 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section ul li > a.button {
   font-size: 0.8125rem;
-  padding-right: 0.9375rem;
-  padding-left: 0.9375rem;
+  padding-right: 1.33333rem;
+  padding-left: 1.33333rem;
   background-color: #008CBA;
   border-color: #007095;
   color: #FFFFFF;
@@ -6132,8 +6132,8 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section ul li > button {
   font-size: 0.8125rem;
-  padding-right: 0.9375rem;
-  padding-left: 0.9375rem;
+  padding-right: 1.33333rem;
+  padding-left: 1.33333rem;
   background-color: #008CBA;
   border-color: #007095;
   color: #FFFFFF;
@@ -6202,7 +6202,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
 }
 .top-bar-section .has-form {
-  padding: 0.9375rem;
+  padding: 1.33333rem;
 }
 .top-bar-section .has-dropdown {
   position: relative;
@@ -6215,7 +6215,7 @@ meta.foundation-mq-topbar {
   border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
-  margin-right: 0.9375rem;
+  margin-right: 1.33333rem;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -6256,7 +6256,7 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 0.9375rem;
+  padding: 8px 1.33333rem;
 }
 .top-bar-section .dropdown li a.parent-link {
   font-weight: normal;
@@ -6274,13 +6274,13 @@ meta.foundation-mq-topbar {
   background: none;
 }
 .top-bar-section .dropdown li.has-form {
-  padding: 8px 0.9375rem;
+  padding: 8px 1.33333rem;
 }
 .top-bar-section .dropdown li .button, .top-bar-section .dropdown li button {
   top: auto;
 }
 .top-bar-section .dropdown label {
-  padding: 8px 0.9375rem 2px;
+  padding: 8px 1.33333rem 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
@@ -6319,7 +6319,7 @@ meta.foundation-mq-topbar {
     font-size: 0.875rem;
     position: relative;
     height: 1.75rem;
-    top: 0.53125rem;
+    top: 1.125rem;
   }
   .top-bar.expanded {
     background: #333333;
@@ -6352,8 +6352,8 @@ meta.foundation-mq-topbar {
     color: #FFFFFF;
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
-    padding: 0 0.9375rem;
-    line-height: 2.8125rem;
+    padding: 0 1.33333rem;
+    line-height: 4rem;
     background: #333333;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -6361,8 +6361,8 @@ meta.foundation-mq-topbar {
     background: #333333;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
-    padding: 0 0.9375rem;
-    line-height: 2.8125rem;
+    padding: 0 1.33333rem;
+    line-height: 4rem;
     color: #FFFFFF;
     background: #008CBA;
   }
@@ -6371,7 +6371,7 @@ meta.foundation-mq-topbar {
     color: #FFFFFF;
   }
   .top-bar-section .has-dropdown > a {
-    padding-right: 2.1875rem !important;
+    padding-right: 2.58333rem !important;
   }
   .top-bar-section .has-dropdown > a:after {
     content: "";
@@ -6382,7 +6382,7 @@ meta.foundation-mq-topbar {
     border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
     border-top-style: solid;
     margin-top: -2.5px;
-    top: 1.40625rem;
+    top: 2rem;
   }
   .top-bar-section .has-dropdown.moved {
     position: relative;
@@ -6429,9 +6429,9 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section .dropdown li a {
     color: #FFFFFF;
-    line-height: 2.8125rem;
+    line-height: 4rem;
     white-space: nowrap;
-    padding: 12px 0.9375rem;
+    padding: 12px 1.33333rem;
     background: #333333;
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
@@ -6456,13 +6456,13 @@ meta.foundation-mq-topbar {
     border-top: none;
     border-right: solid 1px #4e4e4e;
     clear: none;
-    height: 2.8125rem;
+    height: 4rem;
     width: 0;
   }
   .top-bar-section .has-form {
     background: #333333;
-    padding: 0 0.9375rem;
-    height: 2.8125rem;
+    padding: 0 1.33333rem;
+    height: 4rem;
   }
   .top-bar-section .right li .dropdown {
     left: auto;
@@ -8005,5 +8005,8 @@ th.hide-for-touch {
   }
 }
 /* all app scss styles here */
+body {
+  margin-top: 60px;
+}
 
 /*# sourceMappingURL=app.css.map */
