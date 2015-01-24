@@ -16,10 +16,12 @@
     <!-- build:js js/vendor/modernizr.min.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-      <link href='http://fonts.googleapis.com/css?family=Lato:400,300,900,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,900,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
+
+    <!-- NAVIGATION -->
       <div class="contain-to-grid fixed">
           <!-- Your nav bar -->
           <nav class="top-bar">
@@ -37,136 +39,119 @@
               </section>
           </nav>
       </div>
+    <!-- ENDE NAVIGATION -->
+
+    <!-- Content -->
 
 
-    <div class="row">
-      <div class="small-12 small-centered medium-10 medium-centered columns panel radius">
-        <h1>Yo Foundation 5!</h1>
-        <ul>
-          <li>Sass compiling (Ruby or Node/Libsass)</li>
-          <li>Jade templating engine (option)</li>
-          <li>Publishing to dist directory</li>
-          <li>Server with LiveReload</li>
-          <li>JSHint</li>
-          <li>Grunt Bower install</li>
-          <li>Imagemin</li>
-          <li>Font Awesome (option)</li>
-        </ul>
-        <h1>Grunt tasks:</h1>
-        <ul>
-          <li>'grunt' - watching (Sass, Server on 127.0.0.1:9000 with LiveReload)</li>
-          <li>'grunt compile-sass' - Sass</li>
-          <li>'grunt compile-jade' - Jade</li>
-          <li>'grunt validate-js' - JSHint</li>
-          <li>'grunt bower-install' - injecting bower libraries</li>
-          <li>'grunt publish' - dist directory</li>
-          <li>'grunt server-dist' - server on 127.0.0.1:9001 - dist directory (preview only)</li>
-        </ul>
-        <h2 class="text-right">
-          <a href="https://github.com/juliancwirko/generator-zf5"><i class="fa fa-github"></i></a>
-        </h2>
-      </div>
-    </div>
 
 
-    <div class="footer">
-      <div class="support-footer">
-          <div class="row">
-              <div class="medium-8 columns">
-                  <h5>
-                      Unterstütze jetzt
-                      <a href="http://https://www.mein-grundeinkommen.de/support/crowdbar">Mein Grundeinkommen</a>.
-                  </h5>
-                  <p>
-                      Du kannst spenden oder das Grundeinkommen mittels der Crowdbar oder Crowdcard unterstützen.
-                  </p>
-              </div>
-              <div class="medium-4 columns">
-                  <a href="https://www.mein-grundeinkommen.de/support/crowdbar" class="button large">Jetzt unterstützen!</a>
-              </div>
-          </div>
-      </div>
 
-      <div class="info-footer">
-          <div class="row">
-              <div class="medium-4 columns">
-                  <div class="projekt-info">
-                      <h3 class="text-center">Das Projekt</h3>
+
+
+    <!--        FOOTER        -->
+
+        <div class="footer">
+          <div class="support-footer">
+              <div class="row">
+                  <div class="medium-8 columns">
+                      <h5>
+                          Unterstütze jetzt
+                          <a href="http://https://www.mein-grundeinkommen.de/support/crowdbar">Mein Grundeinkommen</a>.
+                      </h5>
                       <p>
-                          "Mein Grundeinkommen" sammelt per
-                          <a href="https://www.startnext.com/mein-grundeinkommen">Crowdfunding</a>
-                          Geld für ein Bedingungsloses Grundeinkommen. Immer wenn 12.000€ erreicht sind, werden sie an eine Person ausgelost.
+                          Du kannst spenden oder das Grundeinkommen mittels der Crowdbar oder Crowdcard unterstützen.
                       </p>
                   </div>
+                  <div class="medium-4 columns">
+                      <a href="https://www.mein-grundeinkommen.de/support/crowdbar" class="button large">Jetzt unterstützen!</a>
+                  </div>
               </div>
-              <div class="medium-8 columns">
-                  <div class="row">
-                      <div class="medium-4 columns">
-                          <div class="border">
-                              <i class="fa  fa-arrow-right  fa-2x"></i>
-                              <h4 class="hide-for-small text-center">Links</h4>
-                              <ul>
-                                  <li>
-                                      <a href="https://www.mein-grundeinkommen.de/info/impressum">Impressum</a>
-                                  </li>
-                                  <li>
-                                      <a href="https://www.mein-grundeinkommen.de/info/nutzungsbedingungen">Nutzungsbedingungen</a>
-                                  </li>
-                                  <li>
-                                      <a href="https://www.mein-grundeinkommen.de/gewinnspielbedingungen">Gewinnspielbedingungen</a>
-                                  </li>
-                                  <li>
-                                      <a href="https://www.mein-grundeinkommen.de/info/datenschutz">Datenschutz</a>
-                                  </li>
-                              </ul>
-                          </div>
+          </div>
+
+          <div class="info-footer">
+              <div class="row">
+                  <div class="medium-4 columns">
+                      <div class="projekt-info">
+                          <h3 class="text-center">Das Projekt</h3>
+                          <p>
+                              "Mein Grundeinkommen" sammelt per
+                              <a href="https://www.startnext.com/mein-grundeinkommen">Crowdfunding</a>
+                              Geld für ein Bedingungsloses Grundeinkommen. Immer wenn 12.000€ erreicht sind, werden sie an eine Person ausgelost.
+                          </p>
                       </div>
-                      <div class="medium-4 columns">
-                          <div class="border">
-                              <i class="fa fa-envelope-o  fa-2x"></i>
-                              <h4 class="hide-for-small text-center">Kontakt</h4>
-                              <p>
-                                  Twittert uns auf
-                                  <br>
-                                  <a href="https://twitter.com/meinbge">@meinbge</a>
-                              </p>
-                              <p>
-                                  Mailt uns an
-                                  <br>
-                                  <a href="mailto:support@mein-grundeinkommen.de">
-                                      support@mein-grundeinkommen.de
-                                  </a>
-                              </p>
+                  </div>
+                  <div class="medium-8 columns">
+                      <div class="row">
+                          <div class="medium-4 columns">
+                              <div class="border">
+                                  <i class="fa  fa-arrow-right  fa-2x"></i>
+                                  <h4 class="hide-for-small text-center">Links</h4>
+                                  <ul>
+                                      <li>
+                                          <a href="https://www.mein-grundeinkommen.de/info/impressum">Impressum</a>
+                                      </li>
+                                      <li>
+                                          <a href="https://www.mein-grundeinkommen.de/info/nutzungsbedingungen">Nutzungsbedingungen</a>
+                                      </li>
+                                      <li>
+                                          <a href="https://www.mein-grundeinkommen.de/gewinnspielbedingungen">Gewinnspielbedingungen</a>
+                                      </li>
+                                      <li>
+                                          <a href="https://www.mein-grundeinkommen.de/info/datenschutz">Datenschutz</a>
+                                      </li>
+                                  </ul>
+                              </div>
                           </div>
-                      </div>
-                      <div class="medium-4 columns">
-                          <div class="border">
-                              <i class="fa fa-gift  fa-2x"></i>
-                              <h4 class="hide-for-small text-center">Spenden</h4>
-                              <p>
-                                  Konto-Nr: 1165313800</br>
-                                  Bankleitzahl: 43060967</br>
-                                  Bank: GLS Gemeinschaftsbank</br>
-                                  Betreff: "Spende"
-                              </p>
+                          <div class="medium-4 columns">
+                              <div class="border">
+                                  <i class="fa fa-envelope-o  fa-2x"></i>
+                                  <h4 class="hide-for-small text-center">Kontakt</h4>
+                                  <p>
+                                      Twittert uns auf
+                                      <br>
+                                      <a href="https://twitter.com/meinbge">@meinbge</a>
+                                  </p>
+                                  <p>
+                                      Mailt uns an
+                                      <br>
+                                      <a href="mailto:support@mein-grundeinkommen.de">
+                                          support@mein-grundeinkommen.de
+                                      </a>
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="medium-4 columns">
+                              <div class="border">
+                                  <i class="fa fa-gift  fa-2x"></i>
+                                  <h4 class="hide-for-small text-center">Spenden</h4>
+                                  <p>
+                                      Konto-Nr: 1165313800</br>
+                                      Bankleitzahl: 43060967</br>
+                                      Bank: GLS Gemeinschaftsbank</br>
+                                      Betreff: "Spende"
+                                  </p>
+                              </div>
                           </div>
                       </div>
                   </div>
               </div>
           </div>
-      </div>
 
-        <div class="row copyright">
-            <div class="medium-8 columns">
+            <div class="row copyright">
+                <div class="medium-8 columns">
 
-            © 2014 Verein "Mein Grundeinkommen"
+                © 2014 Verein "Mein Grundeinkommen"
+                </div>
+                <div class="medium-4 columns social">
+                    <a href="https://www.facebook.com/MeinGrundeinkommen"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/meinbge"><i class="fa fa-twitter-square"></i></a>
+                </div>
             </div>
-            <div class="medium-4 columns social">
-                <a href="https://www.facebook.com/MeinGrundeinkommen"><i class="fa fa-facebook-square"></i></a>
-                <a href="https://twitter.com/meinbge"><i class="fa fa-twitter-square"></i></a>
-            </div>
-        </div>
-      </div>
+          </div>
+
+    <!-- ENDE FOOTER -->
+
 
     <!-- build:js js/vendor/libraries.min.js -->
     <!-- bower:js -->

@@ -8029,6 +8029,10 @@ th.hide-for-touch {
 .support-footer h1, .support-footer h2, .support-footer h3, .support-footer h4, .support-footer h5 {
   line-height: 0.5;
 }
+.support-footer .button {
+  background-color: #038788;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
 
 .info-footer {
   background-color: #08999a;
