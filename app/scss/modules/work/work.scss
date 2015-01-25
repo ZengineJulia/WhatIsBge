@@ -1,0 +1,24 @@
+.work{
+  text-align: center;
+  background-color: $bge;
+  padding-bottom: 2rem;
+  h2{
+    padding-bottom: 1rem;
+    text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+    color: #fff;
+    font-weight: 500;
+  }
+  h3{
+    text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+    color: #fff;
+    font-weight: 500;
+  }
+  h4{
+    text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+    color: #fff;
+    font-weight: 300;
+  }
+  ul{
+  list-style: none;
+  }
+}

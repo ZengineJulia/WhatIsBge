@@ -53,6 +53,8 @@
   @import "modules/topbar/topbar";
   @import "modules/footer/footer";
   @import "modules/intro/intro";
+  @import "modules/what/what";
+  @import "modules/four/four";
   @import "modules/suffer/suffer";
   @import "modules/principle/principle";
   @import "modules/work/work";
@@ -64,7 +66,6 @@
   @import "modules/possible/possible";
   @import "modules/bge/bge";
   @import "modules/block/block";
-  @import "modules/four/four";
 
 
 
@@ -79,8 +80,29 @@
 
 body{
   margin-top: 4rem;
+  width: 100%;
+  font-weight: 100;
 }
 .section{
   min-height: 30rem;
   padding-top: 4rem;
+}
+.svg{
+  height: 60px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+.triangular{
+  fill: $bge;
+}
+.triangularw{
+  fill: #fff;
+}
+.bold{
+  font-weight: 500;
+}
+.boldbge{
+  font-weight: 500;
+  color: $bge;
 }

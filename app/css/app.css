@@ -472,7 +472,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal;
   line-height: 1.5;
   position: relative;
@@ -1848,7 +1848,7 @@ select {
   border-style: solid;
   border-width: 1px;
   display: block;
-  font-weight: normal;
+  font-weight: 100;
   margin-bottom: 1.25rem;
   position: relative;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
@@ -2397,7 +2397,7 @@ button, .button {
   border-width: 0;
   cursor: pointer;
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
@@ -3698,7 +3698,7 @@ label {
   color: #4d4d4d;
   cursor: pointer;
   display: block;
-  font-weight: normal;
+  font-weight: 100;
   line-height: 1.5;
   margin-bottom: 0;
   /* Styles for required inputs */
@@ -4001,7 +4001,7 @@ fieldset legend {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 100;
   font-style: italic;
   background: #f04124;
   color: #FFFFFF;
@@ -4016,7 +4016,7 @@ span.error, small.error {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 100;
   font-style: italic;
   background: #f04124;
   color: #FFFFFF;
@@ -4041,7 +4041,7 @@ span.error, small.error {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 100;
   font-style: italic;
   background: #f04124;
   color: #FFFFFF;
@@ -4297,7 +4297,7 @@ label.error {
   top: 0;
   left: 2.5%;
   font-family: inherit;
-  font-weight: normal;
+  font-weight: 100;
   width: 95%;
 }
 
@@ -4392,7 +4392,7 @@ label.error {
   color: #777777 !important;
   text-decoration: none;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 100;
   line-height: .5 !important;
 }
 .joyride-close-tip:hover, .joyride-close-tip:focus {
@@ -4476,7 +4476,7 @@ kbd {
 }
 
 .label {
-  font-weight: normal;
+  font-weight: 100;
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
@@ -4959,7 +4959,7 @@ ul.pagination li {
   padding: 0.9375rem 1.25rem;
   text-align: center;
   color: #EEEEEE;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 1rem;
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
 }
@@ -4968,7 +4968,7 @@ ul.pagination li {
   padding: 0.9375rem 1.25rem;
   text-align: center;
   color: #333333;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 2rem;
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
 }
@@ -4978,7 +4978,7 @@ ul.pagination li {
   text-align: center;
   color: #777777;
   font-size: 0.75rem;
-  font-weight: normal;
+  font-weight: 100;
   line-height: 1.4;
   border-bottom: dotted 1px #DDDDDD;
 }
@@ -4988,7 +4988,7 @@ ul.pagination li {
   text-align: center;
   color: #333333;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 100;
   border-bottom: dotted 1px #DDDDDD;
 }
 .pricing-table .cta-button {
@@ -5308,7 +5308,7 @@ dialog[open] {
 .side-nav li {
   margin: 0 0 0.4375rem 0;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 100;
 }
 .side-nav li a:not(.button) {
   display: block;
@@ -5322,7 +5322,7 @@ dialog[open] {
 }
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
-  font-weight: normal;
+  font-weight: 100;
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
 }
 .side-nav li.divider {
@@ -5464,7 +5464,7 @@ dialog[open] {
   margin-left: 1rem;
   margin-bottom: 0;
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 0.875rem;
   color: #999999;
 }
@@ -5484,7 +5484,7 @@ dialog[open] {
 .sub-nav dd.active a,
 .sub-nav li.active a {
   border-radius: 3px;
-  font-weight: normal;
+  font-weight: 100;
   background: #008CBA;
   padding: 0.1875rem 1rem;
   cursor: default;
@@ -5813,7 +5813,7 @@ table tr td {
   display: none;
   position: absolute;
   z-index: 1006;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 0.875rem;
   line-height: 1.3;
   padding: 0.75rem;
@@ -5856,7 +5856,7 @@ table tr td {
   display: block;
   font-size: 0.625rem;
   color: #777777;
-  font-weight: normal;
+  font-weight: 100;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -5976,7 +5976,7 @@ meta.foundation-mq-topbar {
   margin: 0;
 }
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
-  font-weight: normal;
+  font-weight: 100;
   color: #FFFFFF;
   width: 75%;
   display: block;
@@ -6069,7 +6069,7 @@ meta.foundation-mq-topbar {
   padding-left: 1.33333rem;
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
-  font-weight: normal;
+  font-weight: 100;
   text-transform: none;
 }
 .top-bar-section ul li > a.button {
@@ -6255,11 +6255,11 @@ meta.foundation-mq-topbar {
   height: auto;
 }
 .top-bar-section .dropdown li a {
-  font-weight: normal;
+  font-weight: 100;
   padding: 8px 1.33333rem;
 }
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: normal;
+  font-weight: 100;
 }
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
   margin-bottom: 0;
@@ -6733,7 +6733,7 @@ a img {
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
@@ -6752,8 +6752,8 @@ p aside {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 100;
+  font-style: 100;
   color: #222222;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
@@ -6793,7 +6793,7 @@ h6 {
 .subheader {
   line-height: 1.4;
   color: #6f6f6f;
-  font-weight: normal;
+  font-weight: 100;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
@@ -6826,7 +6826,7 @@ small {
 
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
+  font-weight: 100;
   color: #333333;
   background-color: #f8f8f8;
   border-width: 1px;
@@ -8070,28 +8070,119 @@ th.hide-for-touch {
 }
 
 .intro {
+  width: 100%;
   padding: 70px 70px 70px 70px;
   background-color: #2c9a9b;
 }
 .intro h1 {
   color: #fff;
-  font-size: 3.5rem;
-  font-weight: 600;
+  font-size: 4rem;
+  font-weight: 500;
   text-align: center;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
 }
 
+.what p {
+  padding-top: 4.3rem;
+}
+
+.four {
+  background-color: #2c9a9b;
+  font-weight: 200;
+  padding-bottom: 4rem;
+}
+.four h2 {
+  color: #fff;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
 .four h4 {
   font-size: 1.2rem;
+  color: #fff;
+  padding-bottom: 1rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+
+.suffer {
+  text-align: center;
+  line-height: 1rem;
+}
+.suffer h2 {
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+
+.principle h2 {
   color: #2c9a9b;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+
+.work {
+  text-align: center;
+  background-color: #2c9a9b;
+  padding-bottom: 2rem;
+}
+.work h2 {
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+  color: #fff;
+  font-weight: 500;
+}
+.work h3 {
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+  color: #fff;
+  font-weight: 500;
+}
+.work h4 {
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+  color: #fff;
+  font-weight: 300;
+}
+.work ul {
+  list-style: none;
+}
+
+.daily {
+  text-align: center;
 }
 
 body {
   margin-top: 4rem;
+  width: 100%;
+  font-weight: 100;
 }
 
 .section {
   min-height: 30rem;
   padding-top: 4rem;
+}
+
+.svg {
+  height: 60px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.triangular {
+  fill: #2c9a9b;
+}
+
+.triangularw {
+  fill: #fff;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.boldbge {
+  font-weight: 500;
+  color: #2c9a9b;
 }
 
 /*# sourceMappingURL=app.css.map */
