@@ -8076,7 +8076,7 @@ th.hide-for-touch {
 }
 .intro h1 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 4.9rem;
   font-weight: 500;
   text-align: center;
   text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
@@ -8114,11 +8114,26 @@ th.hide-for-touch {
   text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
 }
 
+.principle {
+  position: relative;
+  padding-bottom: 5rem;
+}
 .principle h2 {
   color: #2c9a9b;
   font-weight: 500;
   padding-bottom: 1rem;
   text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+.principle .triangular {
+  fill: #2c9a9b;
+  transform: scaleY(-1);
+}
+.principle .svg {
+  height: 60px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
 }
 
 .work {
@@ -8149,6 +8164,14 @@ th.hide-for-touch {
 .daily {
   text-align: center;
 }
+.daily h2 {
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+
+.block {
+  position: relative;
+}
 
 body {
   margin-top: 4rem;
@@ -8174,6 +8197,28 @@ body {
 
 .triangularw {
   fill: #fff;
+}
+
+.svgtop {
+  height: 60px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 100%;
+}
+
+.svgbottom {
+  height: 60px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+
+.triangularwt {
+  fill: #3ab3b4;
+  transform: scalex(-1);
+  transform: scaley(-1);
 }
 
 .bold {
