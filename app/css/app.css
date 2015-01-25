@@ -551,7 +551,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 100%;
+  max-width: 75rem;
 }
 .row:before, .row:after {
   content: " ";
@@ -5178,7 +5178,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal, dialog {
     width: 80%;
-    max-width: 100%;
+    max-width: 75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5201,7 +5201,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.tiny, dialog.tiny {
     width: 30%;
-    max-width: 100%;
+    max-width: 75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5210,7 +5210,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.small, dialog.small {
     width: 40%;
-    max-width: 100%;
+    max-width: 75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5219,7 +5219,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.medium, dialog.medium {
     width: 60%;
-    max-width: 100%;
+    max-width: 75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5228,7 +5228,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.large, dialog.large {
     width: 70%;
-    max-width: 100%;
+    max-width: 75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5237,7 +5237,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.xlarge, dialog.xlarge {
     width: 95%;
-    max-width: 100%;
+    max-width: 75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5255,7 +5255,7 @@ ul.pagination li {
 @media only screen and (min-width: 40.063em) {
   .reveal-modal.full, dialog.full {
     width: 100vw;
-    max-width: 100%;
+    max-width: 75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -6326,7 +6326,7 @@ meta.foundation-mq-topbar {
   }
 
   .contain-to-grid .top-bar {
-    max-width: 100%;
+    max-width: 75rem;
     margin: 0 auto;
     margin-bottom: 0;
   }
@@ -8006,9 +8006,8 @@ th.hide-for-touch {
 }
 /* all app scss styles here */
 .top-bar img {
-  height: 60px;
-  padding-left: 50px;
-  padding-right: 50px;
+  height: 4rem;
+  padding-left: 4rem;
 }
 
 .footer {
@@ -8071,16 +8070,28 @@ th.hide-for-touch {
 }
 
 .intro {
-  padding: 30px 70px 70px 70px;
+  padding: 70px 70px 70px 70px;
+  background-color: #2c9a9b;
 }
 .intro h1 {
-  color: #2c9a9b;
+  color: #fff;
   font-size: 3.5rem;
   font-weight: 600;
+  text-align: center;
+}
+
+.four h4 {
+  font-size: 1.2rem;
+  color: #2c9a9b;
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 4rem;
+}
+
+.section {
+  min-height: 30rem;
+  padding-top: 4rem;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -49,10 +49,38 @@
 
   @import "appstyles";
 
-@import "modules/topbar/topbar";
-@import "modules/footer/footer";
-@import "modules/intro/intro";
+  @import "color";
+  @import "modules/topbar/topbar";
+  @import "modules/footer/footer";
+  @import "modules/intro/intro";
+  @import "modules/suffer/suffer";
+  @import "modules/principle/principle";
+  @import "modules/work/work";
+  @import "modules/daily/daily";
+  @import "modules/no/no";
+  @import "modules/who/who";
+  @import "modules/dirt/dirt";
+  @import "modules/robot/robot";
+  @import "modules/possible/possible";
+  @import "modules/bge/bge";
+  @import "modules/block/block";
+  @import "modules/four/four";
+
+
+
+
+
+
+
+
+
+
+
 
 body{
-  margin-top: 100px;
+  margin-top: 4rem;
+}
+.section{
+  min-height: 30rem;
+  padding-top: 4rem;
 }
