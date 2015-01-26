@@ -8073,10 +8073,17 @@ th.hide-for-touch {
   font-size: 2.7rem;
 }
 
+@media only screen and (max-width: 40em) {
+  .info-footer .border {
+    border-left: 0px solid rgba(255, 255, 255, 0.2);
+  }
+  .info-footer h1, .info-footer h2, .info-footer h3, .info-footer h4, .info-footer h5 {
+    line-height: 1.5;
+  }
+}
 .intro {
   position: relative;
   width: 100%;
-  padding: 70px 70px 70px 70px;
   background-color: #2c9a9b;
 }
 .intro h1 {
@@ -8097,6 +8104,11 @@ th.hide-for-touch {
   bottom: 0%;
 }
 
+@media only screen and (max-width: 40em) {
+  .intro h1 {
+    font-size: 2rem;
+  }
+}
 .what {
   position: relative;
 }
@@ -8198,6 +8210,33 @@ th.hide-for-touch {
   text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
 }
 
+.no {
+  position: relative;
+  background-color: #2c9a9b;
+  padding-bottom: 2rem;
+}
+.no h2 {
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+  color: #fff;
+  font-weight: 400;
+}
+.no h3 {
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+  color: #fff;
+  font-weight: 400;
+}
+.no .wow {
+  text-align: center;
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+  color: #fff;
+}
+.no img {
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
 .block {
   position: relative;
 }
@@ -8218,6 +8257,9 @@ body {
   margin-top: 4rem;
   width: 100%;
   font-weight: 100;
+}
+body p {
+  font-size: 1.2rem;
 }
 
 .section {

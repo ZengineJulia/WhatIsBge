@@ -52,7 +52,9 @@
   @import "color";
   @import "modules/topbar/topbar";
   @import "modules/footer/footer";
+  @import "modules/footer/media";
   @import "modules/intro/intro";
+  @import "modules/intro/media";
   @import "modules/what/what";
   @import "modules/four/four";
   @import "modules/suffer/suffer";
@@ -60,6 +62,7 @@
   @import "modules/work/work";
   @import "modules/daily/daily";
   @import "modules/no/no";
+  @import "modules/no/no2";
   @import "modules/who/who";
   @import "modules/dirt/dirt";
   @import "modules/robot/robot";
@@ -82,6 +85,9 @@ body{
   margin-top: 4rem;
   width: 100%;
   font-weight: 100;
+  p{
+    font-size: 1.2rem;
+  }
 }
 .section{
   min-height: 30rem;
