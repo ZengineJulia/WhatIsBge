@@ -1,3 +1,15 @@
 .block{
   position: relative;
+  .svg{
+    height: 60px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+  }
+  .triangular{
+     fill: #3ab3b4;
+     transform: scalex(-1);
+     transform: scaley(-1);
+   }
 }

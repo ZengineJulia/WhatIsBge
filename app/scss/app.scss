@@ -85,38 +85,7 @@ body{
 }
 .section{
   min-height: 30rem;
-  padding-top: 4rem;
-}
-.svg{
-  height: 60px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-}
-.triangular{
-  fill: $bge;
-}
-.triangularw{
-  fill: #fff;
-  }
-.svgtop{
-  height: 60px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  bottom: 100%;
-}
-.svgbottom{
-  height: 60px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  bottom: 0%;
-}
-.triangularwt{
-  fill: #3ab3b4;
-  transform: scalex(-1);
-  transform: scaley(-1);
+  padding-top: 3rem;
 }
 .bold{
   font-weight: 500;
