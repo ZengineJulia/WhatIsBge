@@ -1,5 +1,6 @@
 .what{
   position: relative;
+  padding-top: 1rem;
   p{
     padding-top: 1rem;
   }
@@ -7,7 +8,6 @@
     fill: $bge;
     transform: scalex(-1);
     transform: scaley(-1);
-
   }
   .svg{
     height: 60px;
