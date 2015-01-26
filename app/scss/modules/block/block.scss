@@ -5,11 +5,10 @@
     left: 0;
     width: 100%;
     position: absolute;
-    bottom: 0%;
+    bottom: -0.05%;
   }
   .triangular{
      fill: #3ab3b4;
-     transform: scalex(-1);
-     transform: scaley(-1);
-   }
+    transform: scaleY(-1);
+  }
 }

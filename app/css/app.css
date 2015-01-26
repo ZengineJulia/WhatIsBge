@@ -8113,7 +8113,7 @@ th.hide-for-touch {
   position: relative;
 }
 .what p {
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 .what .triangular {
   fill: #2c9a9b;
@@ -8213,7 +8213,7 @@ th.hide-for-touch {
 .no {
   position: relative;
   background-color: #2c9a9b;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 .no h2 {
   padding-bottom: 1rem;
@@ -8236,6 +8236,112 @@ th.hide-for-touch {
   padding-top: 1rem;
   padding-bottom: 2.5rem;
 }
+.no .triangular {
+  fill: #fff;
+}
+.no .svg {
+  height: 61px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: -0.05%;
+}
+
+.who {
+  position: relative;
+  padding-bottom: 4rem;
+}
+.who h2 {
+  padding-bottom: 1rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+.who .triangular {
+  fill: #2c9a9b;
+}
+.who .svg {
+  height: 60px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: -0.05%;
+}
+
+.dirt {
+  position: relative;
+  background-color: #2c9a9b;
+  padding-bottom: 4rem;
+}
+.dirt h2 {
+  padding-bottom: 1rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+.dirt .triangular {
+  fill: #fff;
+}
+.dirt .svg {
+  height: 61px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: -0.05%;
+}
+.dirt ul {
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.robot {
+  position: relative;
+  padding-bottom: 3rem;
+}
+.robot h2 {
+  padding-bottom: 1rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+.robot h3 {
+  padding-top: 2rem;
+}
+.robot .triangular {
+  fill: #2c9a9b;
+}
+.robot .svg {
+  height: 61px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: -0.05%;
+}
+
+.possible {
+  position: relative;
+  background-color: #2c9a9b;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.possible h2 {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+  padding-bottom: 2rem;
+  font-weight: 500;
+}
+.possible h3 {
+  padding-top: 2rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(68, 0, 25, 0.2);
+}
+.possible .triangular {
+  fill: #fff;
+}
+.possible .svg {
+  height: 61px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  bottom: -0.05%;
+}
 
 .block {
   position: relative;
@@ -8245,12 +8351,11 @@ th.hide-for-touch {
   left: 0;
   width: 100%;
   position: absolute;
-  bottom: 0%;
+  bottom: -0.05%;
 }
 .block .triangular {
   fill: #3ab3b4;
-  transform: scalex(-1);
-  transform: scaley(-1);
+  transform: scaleY(-1);
 }
 
 body {
